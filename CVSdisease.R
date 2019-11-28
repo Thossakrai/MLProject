@@ -38,9 +38,9 @@ cardio_test <- cardio[49001: 70000,]
 # install.packages("neuralnet")
 require(neuralnet)
 cardio_model <- neuralnet(cardio ~ age + gender + height + weight + ap_hi + ap_lo + cholesterol + gluc + 
-                            smoke + alco + active, data = cardio_train, hidden = 1)
+                            smoke + alco + active, data = cardio_train, hidden = 1, linear.output = FALSE)
 
-
+plot(cardio_model)
 
 
 
