@@ -27,7 +27,6 @@ There are 3 types of input features:
 - Physical activity | Subjective Feature | active | binary |
 - Presence or absence of cardiovascular disease | Target Variable | cardio | binary |
 
----
 
 ## Developer
 
@@ -36,10 +35,6 @@ Machine Learning Course
 Software Engineering Program, KMITL.
 2019
 
----
-
 ## References
 
 - dataset: <https://www.kaggle.com/sulianova/cardiovascular-disease-dataset>
-
----
