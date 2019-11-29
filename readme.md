@@ -16,25 +16,26 @@ There are 3 types of input features:
 
 ### Objective Features
 
-- Age (age)  - int (days)
+- Age (age) - int (days)
 - Height (height) - int (cm)
 - Weight (weight) - float (kg)
 - Gender (gender) - categorical code =>
+
 1: women,
 2: men
 
 ### Examination Features
 
-- Systolic blood pressure (ap_hi) -  int
+- Systolic blood pressure (ap_hi) - int
 - Diastolic blood pressure (ap_lo) - int
 - Cholesterol (cholesterol) - categorical code =>
-1: normal
-2: above normal
-3: well above normal
+  1: normal
+  2: above normal
+  3: well above normal
 - Glucose (gluc) - categorical code =>
-1: normal
-2: above normal
-3: well above normal
+  1: normal
+  2: above normal
+  3: well above normal
 
 ### Subjective Features
 
@@ -45,7 +46,6 @@ There are 3 types of input features:
 ### Target Variable
 
 - Presence or absence of cardiovascular disease (cardio) - binary
-
 
 ## Developer
 
