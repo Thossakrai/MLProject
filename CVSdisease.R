@@ -45,6 +45,9 @@ plot(cardio_model)
 
 
 #model evaluation
+model_results <- compute(cardio_model, cardio_test[2:12])
+predicted_cardio <- model_results$net.result
+cor(predicted_cardio, cardio_test$cardio)
 
 
 
